@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "node app.js",
 		"migrate": "knex migrate:latest",
-		"makemigrate": "knex --knexfile=./database/knexfile.js migrate:make",
+		"makemigrate": "knex --knexfile=./db/knexfile.js migrate:make",
 		"makeseed": "knex --knexfile=./database/knexfile.js seed:make",
 		"seed": "knex seed:run",
 		"lint": "eslint '**/*.js'"
