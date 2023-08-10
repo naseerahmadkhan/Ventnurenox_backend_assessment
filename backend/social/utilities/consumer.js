@@ -18,7 +18,7 @@ const initConsumer = async () => {
 
 		await consumer.connect();
 
-		console.log('Connected');
+		console.log('Connected Consumer');
 
 		await consumer.subscribe({ topic: 'event_stream', fromBeginning: true });
 
