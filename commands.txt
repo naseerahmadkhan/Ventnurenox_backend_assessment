@@ -1,0 +1,11 @@
+sudo apt install docker docker-compose
+docker-compose up -d --build
+docker-compose down
+docker-compose up -d --build <servicename>
+
+
+
+http://localhost:8090/adminer
+
+
+npm install -g knex
